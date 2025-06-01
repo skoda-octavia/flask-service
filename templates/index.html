@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello from {{ hostname }}</title>
+    <style>
+    html {{ '{ color-scheme: dark light; }' }}
+    body {{ '{ width: 35em; margin: 0 auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif; }' }}
+    </style>
+</head>
+<body>
+    <h1>Hello from {{ hostname }}!</h1>
+    <p>Flask running on {{ hostname }}, {{ ip }} </p>
+</body>
+</html>
